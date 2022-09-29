@@ -1,0 +1,134 @@
+.frame{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	background: #ad254a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+	height: 299px;
+	width: 320px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+}
+
+.profile{
+	float: left;
+	width: 200px;
+	height: 320px;
+	text-align: center;
+}
+
+img{
+	position: relative;
+	width: 65px;
+	height: 65px;
+	margin: 38px auto 0 auto;
+  border-radius: 50%;
+}
+
+.circle1{
+  position: absolute;
+	box-sizing: border-box;
+	width: 78px;
+	height: 78px;
+	top: 32px;
+	left: 62px;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ad254a #ad254a #ad254a transparent;
+	transition: all 1.5s ease-in-out;
+  cursor: pointer;
+}
+
+.circle2{
+  position: absolute;
+	box-sizing: border-box;
+	width: 82px;
+	height: 82px;
+	top: 30px;
+	left: 60px;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ad254a transparent #ad254a #ad254a;
+	transition: all 1.5s ease-in-out;
+  cursor: pointer;
+}
+
+.circle1:hover{
+  transform: rotate(-360deg);
+}
+
+.circle2:hover{
+  transform: rotate(360deg);
+}
+
+.contact{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  margin: 2px;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #ad254a;
+  background: #f7ddef;
+  color: #ad254a;
+  cursor: pointer;
+  transition: all .3s, ease-in-out;
+}
+
+button:hover{
+  background: #ad254a;
+  color: #f7ddef;
+}
+
+.data{
+  float: left;
+}
+
+.box{
+  box-sizing: border-box;
+	width: 120px;
+	height: 99px;
+	background: #f7ddef;
+	text-align: center;
+	padding-top: 28px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.box:nth-child(2){
+  margin: 1px 0;
+}
+
+.box:hover{
+  background: #fbeaee;
+}
+
+h2{
+  margin-bottom: 0;
+  color: #ad254a;
+}
+
+h3, p{
+  margin: 0;
+  color: #ad254a;
+}
+
